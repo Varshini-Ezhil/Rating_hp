@@ -7,11 +7,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  googleapis: any
-  googleapis_auth: any  # For authentication with Google APIs
+ # For authentication with Google APIs
   shared_preferences: ^2.3.3  # For storing user preferences
   intl: ^0.20.1 # For date formatting
-  flutter_dotenv: ^5.0.2
+  
   http: ^1.2.2
 
 dev_dependencies:
@@ -22,10 +21,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/HP_round_logo.png
-    - assets/credentials.json
+    - assets/HP_round_logo-min(1).png
+
 
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/HP_round_logo.png"  # Path to your app icon
+  image_path: "assets/HP_round_logo-min(1).png"  # Path to your app icon

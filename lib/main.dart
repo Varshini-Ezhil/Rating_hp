@@ -78,7 +78,7 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // Replace with your logo image
-            Image.asset('assets/HP_round_logo.png', height: 250), // Logo
+            Image.asset('assets/HP_round_logo-min(1).png', height: 250), // Logo
             const SizedBox(height: 20),
             const Text(
               'Hindustan Petroleum ',
@@ -183,7 +183,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ],
                       ),
                       child: Image.asset(
-                        'assets/HP_round_logo.png',
+                        'assets/HP_round_logo-min(1).png',
                         height: 150,
                         width: 150,
                         
